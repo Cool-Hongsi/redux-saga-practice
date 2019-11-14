@@ -1,0 +1,19 @@
+{
+  "name": "redux-saga-practice",
+  "version": "1.0.0",
+  "description": "Redux Saga Directory Tree and Small REST API",
+  "main": "index.js",
+  "repository": "",
+  "author": "Sungjun Hong",
+  "license": "MIT",
+  "scripts": {
+    "server": "node ./server.js",
+    "view": "npm start --prefix view",
+    "dev": "concurrently \"npm run server\" \"npm run view\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1"
+  }
+}
